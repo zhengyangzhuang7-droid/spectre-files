@@ -1,0 +1,16 @@
+:root{ --paper:#F2EBDD; --card:#FBF6EA; --ink:#24211E; --soft:#6B6258; --red:#B52624; --rule:rgba(36,33,30,.16); }
+@media (prefers-color-scheme: dark){ :root{ --paper:#1B1917; --card:#24201C; --ink:#EDE5D6; --soft:#A69D90; --red:#E2574F; --rule:rgba(237,229,214,.16); } }
+*{ box-sizing:border-box; }
+body{ margin:0; background:var(--paper); color:var(--ink); font:17px/1.75 "Noto Serif SC","Songti SC",Georgia,serif; }
+main{ max-width:720px; margin:0 auto; padding:40px 20px 64px; }
+header{ border-bottom:3px solid var(--ink); padding-bottom:10px; margin-bottom:28px; }
+.brand{ font:700 12px/1 "Courier New",monospace; letter-spacing:.2em; color:var(--red); }
+h1{ font-size:32px; line-height:1.25; margin:10px 0 4px; }
+h2{ font-size:20px; margin:32px 0 8px; border-bottom:1px solid var(--rule); padding-bottom:4px; }
+p,li{ margin:0 0 10px; }
+a{ color:var(--red); }
+.lang{ font:600 13px/1 system-ui,sans-serif; margin:0 0 24px; }
+.lang a{ margin-right:14px; }
+.card{ background:var(--card); border-left:4px solid var(--red); padding:14px 16px; margin:18px 0; }
+footer{ margin-top:48px; border-top:1px solid var(--rule); padding-top:12px; font:13px/1.6 system-ui,sans-serif; color:var(--soft); }
+.mail{ font:700 18px/1.4 "Courier New",monospace; }
